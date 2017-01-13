@@ -30,7 +30,7 @@ module Api
     end
 
     def destroy
-      @res.destroy
+      @post.destroy
       render json: { success: true }, status: 204
     end
 
