@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe "Posts API", :type => :request do
+describe "Posts API", type: :request do
   header = {
     "ACCEPT" => "application/json"
   }
