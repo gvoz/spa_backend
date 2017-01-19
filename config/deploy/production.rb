@@ -2,6 +2,7 @@
 # ======================
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
+
 server '35.157.80.187', user: 'deploy', roles: %w{web app db}
 
 set :ssh_options, {

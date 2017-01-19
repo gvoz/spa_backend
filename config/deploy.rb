@@ -7,7 +7,9 @@ set :application, 'spa_backend'
 # Путь к git репозиторию
 set :repo_url, 'git@github.com:gvoz/spa_backend.git'
 # Ветка по-умолчанию
-set :branch, 'new_deploy'
+
+set :branch, 'master'
+
 # Директория для деплоя
 set :deploy_to, '/home/deploy/applications/spa_backend'
 
