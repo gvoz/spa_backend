@@ -15,7 +15,7 @@ module Api
       @post = Post.new(post_params)
 
       if @post.save
-        render json: @res
+        render json: @post
       else
         render json: { errors: @post.errors }
       end
@@ -23,7 +23,7 @@ module Api
 
     def update
       if @post.update(post_params)
-        render json: @res
+        render json: @post
       else
         render json: { errors: @post.errors }
       end
